@@ -12,7 +12,7 @@ This test code will load an  image for  from the demoImage.hdf5 file.
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import matplotlib.pyplot as plt
 import supportingFunctions as sf
 
